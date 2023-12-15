@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.mb3{
+    width: 50%!important;
+  }
+@media only screen and (max-width: 320px) {
+    .mb3{
+        width: 95% !important;
+      }
+}
+
+
+@media only screen and (max-width: 576px) and (min-width: 320px) {
+    .mb3{
+        width: 97% !important;
+      } 
+}
+.btn-secondary{
+  background-color: #000!important;
+  border-color: #000!important;
+  border: none;
+}
+.btn-secondary:focus {
+  box-shadow:none!important;
+}
