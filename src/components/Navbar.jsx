@@ -75,10 +75,10 @@ const Navbar = () => {
               <li><button className="dropdown-item" type="button">MRO Supplies</button></li>
             </ul>
           </div>
-          <a href="" classnamename="c9">About us</a>
+          <a href="" className="c9">About us</a>
           <a href="" className="c8">Contact us</a>
         </div>
-        <div className="col d-flex justify-content-end px-2 c9">
+        <div className="col d-flex justify-content-end px-2 c91">
           <button className="c3">Login/Register</button>
         </div>
       </div>

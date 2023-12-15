@@ -6,10 +6,29 @@
 .mb3{
     width: 50%!important;
   }
+  .btn-secondary{
+    background-color: #000!important;
+    border-color: #000!important;
+    border: none;
+  }
+  .btn-secondary:focus {
+    box-shadow:none!important;
+  }
 @media only screen and (max-width: 320px) {
     .mb3{
         width: 95% !important;
       }
+      .c8,.c9{
+        display: none!important;
+      }
+      .btn{
+        padding: 4px!important;
+      }
+      .c91 {
+        padding: 0.3rem !important;
+        width: 20vw !important;
+      }
+    
 }
 
 
@@ -17,12 +36,16 @@
     .mb3{
         width: 97% !important;
       } 
+      .c3 {
+        padding: 0.3rem !important;
+        font-size: 4vw;
+      }
+      .btn{
+        padding: 5px!important;
+      }
+
+
+.c8,.c9{
+  display: none!important;
 }
-.btn-secondary{
-  background-color: #000!important;
-  border-color: #000!important;
-  border: none;
-}
-.btn-secondary:focus {
-  box-shadow:none!important;
 }
